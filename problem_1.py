@@ -57,4 +57,4 @@ print(missing)
 # Checking for missing values
 print("Missing Values:",data.isnull().sum())
 
-print("\nSummary of the data:",data.describe(include="object"))
+print("\nSummary of the data:",data.describe(include='all'))
