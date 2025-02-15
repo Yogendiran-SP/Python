@@ -12,8 +12,6 @@ data = data_income.copy()
 # Exploratory Data Analysis
 print(data.info())
 
-print("\nSumma bro: ",data['JobType'].value_counts())
-
 #Converting the object data type to category
 data['JobType'] = data['JobType'].astype('category')
 data['EdType'] = data['EdType'].astype('category')
